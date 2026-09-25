@@ -1,0 +1,7 @@
+# create sensor mounts and cameras
+TIS_1_mount = visnodes.VisTransform.createTransformNode(r"TIS_1_mount")
+scene.Audi_A8_Sedan_1.addChild(TIS_1_mount)
+scene.getTransformChild("TIS_1_mount")
+TIS_1_mount.setTranslation(3.94000005722046, 0, 0.370000004768372)
+TIS_1_mount.setRotation(0, 1, 0, 0)
+
